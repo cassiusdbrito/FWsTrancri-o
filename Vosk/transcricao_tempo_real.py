@@ -38,7 +38,7 @@ class TranscricaoTempoReal:
     def transcreve(self):
         p, stream = self.inicializa_audio()
         
-        print("🎤 Iniciando gravação... (Pressione Ctrl+C para parar)")
+        print("Iniciando gravação... (Pressione Ctrl+C para parar)")
         print("=" * 50)
         
         try:
